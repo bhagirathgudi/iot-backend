@@ -14,6 +14,7 @@ public class InstagramApiController {
         Response response = new Response();
         response.setStatus(HttpStatus.ACCEPTED.getReasonPhrase());
         response.setId(id);
+        System.out.println(response);
         return response;
     }
 }
